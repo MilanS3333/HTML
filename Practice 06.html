@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form action="Practice 05.html" method="post">
+		<table cellspacing="9" cellpadding="5">
+			<tr>
+				<th>Registration From</th>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" pattern="[a-zA-Z]{3,6}" title="3 to 6 Characters only...!" name="N" required></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" pattern="[a-z]+@[a-z]+\.[a-z]+" title="Please include '@' in the email address" required>
+				</td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" required></td>
+			</tr>
+			<tr>
+				<td>Select Country</td>
+				<td>
+				<select>
+					<option hidden>--- Select your Country ---</option>
+					<option>India</option>
+					<option>Dubai</option>
+					<option>Canada</option>
+				</select>
+			</td>
+			</tr>
+			<tr>
+				<td>Date:</td>
+				<td><input type="date" name=""></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender">Male
+					<input type="radio" name="gender">Female</td>
+			</tr>
+			<tr>
+				<td>Date Time</td>
+				<td><input type="datetime-local" name=""></td>
+			</tr>
+			<tr>
+				<td>Hobbies:</td>
+				<td>
+					<input type="checkbox" name="">Gaming
+					<input type="checkbox" name="">Driving
+					<input type="checkbox" name="">Music
+				</td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea></textarea></td>
+			</tr>
+			<tr>
+				<td>Mobile:</td>
+				<td><input type="text" pattern="[0-9]{10}" title="10 digits only...!" required></td>
+			</tr>
+			<tr>
+				<td>Uplode Image:</td>
+				<td><input type="file" required></td>
+			</tr>
+			<tr>
+				<td><input type="submit"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box;}
+		div
+		{
+			height: 100px;
+			padding: 0 0 0 30px;
+			margin: 20px;
+		}
+		
+		.y
+		{
+			height: 150px;
+			border: solid black;
+			
+		}
+		.z{
+			height: 250px;
+			border: solid black;
+		}
+	</style>
+</head>
+<body>
+	<fieldset><legend>
+	Account Info</legend>
+                   
+                  <table cellspacing="20px">
+                   	<tr>
+                   		<td>Name:</td><td><input type="text" name=""></td>
+                   		
+                   		<td rowspan="2">Account Type:<br>
+                   			<input type="radio" name="account">Saving
+                   			<input type="radio" name="account">Checking
+                   		</td>
+                   	</tr>
+                   	
+                   </table></fieldset>
+
+	
+	<fieldset><legend>Transactions</legend>
+		<table cellspacing="30px">
+			<tr>
+				<td>Amount:<input type="number" name=""></td>
+				
+				<td>Transfer From:<select><option></option>
+					<option>BOI</option>
+				<option>SBI</option>
+			<option>PNB</option>
+		</select></td>
+				
+				<td>Transfer To:<select><option></option>
+					<option>BOI</option>
+				<option>SBI</option>
+			<option>PNB</option>
+		</select></td>
+			</tr>
+			<tr><td><input type="button" value="Deposit"></td>
+				
+				<td><input type="button" value="Withdraw"></td>
+				<td><input type="button" value="Transfer"></td>
+				<td><input type="button" value="View Transactions"></td></tr>
+		</table></fieldset>
+		<fieldset><legend>View Transactions</legend>
+			<span>Name: testuser</span><br>
+			<span>Account: Saving</span><br>
+			<span>Intial Balance: $1000.00</span>
+			<table border="">
+				<tr><th width="400px">Description</th>
+					<th width="400px">Amount</th>
+					<th width="400px">Balance</th></tr>
+					<tr><td>Transfer To Checking</td>
+						<td>$-500.00</td>
+						<td>$500.00</td></tr>
+						<tr><td>Withdraw</td>
+							<td>$-23.33</td>
+							<td>$476.67</td></tr>
+							<tr><td>Deposit</td>
+								<td>$102.20</td>
+								<td>$578.87</td></tr>
+								<tr><td>Transfer From Checking</td>
+									<td>$234.00</td>
+									<td>$812.87</td></tr>
+			</table></fieldset>
+
+</body>
+</html>
